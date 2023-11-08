@@ -13,36 +13,40 @@ import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 
 const card = (
   <React.Fragment>
-    <CardContent>
-      <Typography sx={{fontSize: 14}} color="text.primary" component="div">
 
-        <SportsEsportsIcon sx={{fontSize: 100 }}/>
-      </Typography>
+
       <Typography variant="h5" component="div">
         スマブラの対戦記録アプリ
       </Typography>
+      <Typography variant='h1'>
+        開発した経緯
+      </Typography>
+      <Typography variant='h2'>
+        市場に自分のほしいと思ったアプリがなかったから
+
+      </Typography>
       <Typography sx={{ mb: 1.5 }} color="text.secondary">
-        個人開発
+        個人開発・WEBアプリ
       </Typography>
       <Typography variant="body2">
         相手のキャラに対して自分がどのキャラを出せばよいか知る
         <br />
         aa
       </Typography>
-    </CardContent>
-    <CardActions>
 
-      <Link href="/Product2">
-        <Button size="small">Learn More</Button>
+
+
+      <Link href="https://github.com/mizugame634978/smash_note">
+        <Button size="small">ソースコードを見る</Button>
       </Link>
-    </CardActions>
+
   </React.Fragment>
 );
 
-export default function Product2() {
+export default function Product2Detail() {
   return (
-    <Box sx={{ maxWidth: 300,minWidth:275 }}>
-      <Card variant="outlined">{card}</Card>
+    <Box sx={{ minWidth:275 }}>
+      {card}
     </Box>
   );
 }

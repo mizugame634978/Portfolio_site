@@ -6,15 +6,15 @@ import OutlinedCard from './OutlinedCard';
 import Introduction from './Introduction';
 import Product2 from './Product2';
 import Product3 from './Product3';
+import { BrowserRouter } from 'react-router-dom' // 追加
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>{/* エラーが出たら消す */}
+   <BrowserRouter> {/*BrowserRouterで囲む*/}
     <App />
-    <Introduction/>
-    <OutlinedCard/>
-    <Product2/>
-    <Product3/>
+    </BrowserRouter>
+
   </React.StrictMode>
 );
 
