@@ -14,36 +14,29 @@ import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 const card = (
   <React.Fragment>
     <Typography variant="h5" component="div">
-      スマブラの対戦記録アプリ
+      このポートフォリオサイト
     </Typography>
     <Typography sx={{ mb: 1.5 }} color="text.secondary">
       個人開発・WEBアプリ
       <br />
-      使用技術:Python3,Django,postgreSQL
+      使用技術:JavaScript,React,material ui
     </Typography>
 
     <Typography variant="h5">開発した経緯</Typography>
     <Typography variant="body2">
-      市場に自分のほしいと思ったアプリがなかったから
+      履歴書に開発実績をかけない企業があったため
     </Typography>
     <Typography>
-
-■ 成果
-ユーザーが考えることを減らし、質を落としてでも記録を残してもらえるように作った
-
-■ 学んだ点
-
-理解が曖昧でもなんとなくわかるなら作り始めたが、この方法だとモティベーションを保ちやすいことが分かった。
-またフレームワークがクラスからテーブルを作成する場合は、考えたテーブルをそのままクラスに書いてはいけないことがわかった。
+      その他：開発する際にbootstrapの知識が少し活かせた
     </Typography>
 
-    <Link href="https://github.com/mizugame634978/smash_note">
+    <Link href="https://github.com/mizugame634978/Portfolio_site">
       <Button size="small">ソースコードを見る</Button>
     </Link>
   </React.Fragment>
 );
 
-export default function Product2Detail() {
+export default function Product3Detail() {
   return (
     <Grid container alignItems="center" justifyContent="center">
       <Grid card xs={8}>

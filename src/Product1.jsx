@@ -5,7 +5,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-
+import Link from '@mui/material/Link';
 import LocalLibraryIcon from '@mui/icons-material/LocalLibrary';
 
 
@@ -30,12 +30,14 @@ const card = (
       </Typography>
     </CardContent>
     <CardActions>
-      <Button size="small">Learn More</Button>
+    <Link href="/Product1">
+        <Button size="small">Learn More</Button>
+      </Link>
     </CardActions>
   </React.Fragment>
 );
 
-export default function OutlinedCard() {
+export default function Product1() {
   return (
     <Box sx={{ maxWidth: 300,minWidth:275 }}>
       <Card variant="outlined">{card}</Card>

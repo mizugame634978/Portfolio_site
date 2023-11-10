@@ -15,7 +15,6 @@ const card = (
   <React.Fragment>
     <CardContent>
       <Typography sx={{fontSize: 14}} color="text.primary" component="div">
-
         <SportsEsportsIcon sx={{fontSize: 100 }}/>
       </Typography>
       <Typography variant="h5" component="div">

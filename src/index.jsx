@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import OutlinedCard from './OutlinedCard';
+
 import Introduction from './Introduction';
 import Product2 from './Product2';
 import Product3 from './Product3';

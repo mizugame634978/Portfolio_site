@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
+import { Grid } from '@mui/material';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
@@ -13,8 +14,9 @@ const card = (
     <CardContent>
       <Typography>
         name : mizugame<br />
-        大学の学部 : 情報系<br />
+        大学の学部・学科 : 情報系<br />
         卒業 : 25卒（予定）<br />
+        GitHub : https://github.com/mizugame634978 <br />
       </Typography>
     </CardContent>
     <br />
@@ -22,8 +24,14 @@ const card = (
 );
 export default function Introduction() {
   return (
-    <Box sx={{ maxWidth: 275 }}>
+    <Grid container alignItems='center' justifyContent='center' >
+      <Grid card xs = {6}>
+    {/* <Box sx={{ maxWidth: 275}}> */}
       <Card variant="outlined">{card}</Card>
-    </Box>
+      </Grid>
+    {/* </Box> */}
+
+    </Grid>
+
   );
 }
