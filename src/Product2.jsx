@@ -40,8 +40,8 @@ const card = (
 
 export default function Product2() {
   return (
-    <Box sx={{ maxWidth: 300,minWidth:275 }}>
+    // <Box sx={{ maxWidth: 300,minWidth:275 }}>
       <Card variant="outlined">{card}</Card>
-    </Box>
+    // </Box>
   );
 }

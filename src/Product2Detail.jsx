@@ -46,7 +46,7 @@ const card = (
 export default function Product2Detail() {
   return (
     <Grid container alignItems="center" justifyContent="center">
-      <Grid card xs={8}>
+      <Grid card xs={10}lg={8}>
         <Card variant="outlined">
           <CardContent>{card}</CardContent>
         </Card>
