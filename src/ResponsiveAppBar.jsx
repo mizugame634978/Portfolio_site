@@ -52,7 +52,7 @@ export function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            mizugame_portpholio
+            mizugame_portfolio
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -117,7 +117,7 @@ export function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            portpholio
+            portfolio
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (//pc版

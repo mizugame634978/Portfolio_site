@@ -5,7 +5,7 @@ import Introduction from "./Introduction";
 import Product2 from "./Product2";
 import Product3 from "./Product3";
 import Card from "@mui/material/Card";
-
+import Fotter from "./Fotter"
 import { Grid } from "@mui/material";
 import { BrowserRouter } from "react-router-dom"; // 追加
 import Product2Detail from "./Product2Detail";
@@ -55,6 +55,7 @@ function App() {
         <Route path="/Product2" element={<Product2Detail />} />
         <Route path="/Product3" element={<Product3Detail />} />
       </Routes>
+      <Fotter/>
     </div>
   );
 }
