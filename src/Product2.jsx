@@ -26,7 +26,6 @@ const card = (
       <Typography variant="body2">
         相手のキャラに対して自分がどのキャラを出せばよいか知る
         <br />
-        aa
       </Typography>
     </CardContent>
     <CardActions>
@@ -40,8 +39,6 @@ const card = (
 
 export default function Product2() {
   return (
-    // <Box sx={{ maxWidth: 300,minWidth:275 }}>
-      <Card variant="outlined">{card}</Card>
-    // </Box>
+      <Card >{card}</Card>
   );
 }

@@ -51,7 +51,7 @@ DB設計と画面設計（チーム）、技術選定（チーム）を担当。
 export default function Product1Detail() {
   return (
     <Grid container alignItems="center" justifyContent="center">
-      <Grid card xs={10}lg={8}>
+      <Grid card xs={11}lg={8}>
         <Card variant="outlined">
           <CardContent>{card}</CardContent>
         </Card>

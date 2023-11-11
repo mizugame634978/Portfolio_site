@@ -15,10 +15,10 @@ const card = (
     <CardContent>
       <Typography sx={{fontSize: 14}} color="text.primary" component="div">
 
-        <LocalLibraryIcon sx={{fontSize: 100 }}/>
+        <LocalLibraryIcon sx={{fontSize: 100 }} color="primary"/>
       </Typography>
       <Typography variant="h5" component="div">
-        本の貸出管理システムa
+        本の貸出管理システム
       </Typography>
       <Typography sx={{ mb: 1.5 }} color="text.secondary">
         チーム開発
@@ -26,7 +26,7 @@ const card = (
       <Typography variant="body2">
         学生３人のチームで学科のラウンジにある本を対象とした図書館システムを作成した.
         <br />
-        {'"a benevolent smile"'}
+
       </Typography>
     </CardContent>
     <CardActions>
@@ -39,8 +39,6 @@ const card = (
 
 export default function Product1() {
   return (
-    // <Box sx={{ maxWidth: 300,minWidth:275 }}>
-      <Card variant="outlined">{card}</Card>
-    // </Box>
+      <Card >{card}</Card>
   );
 }

@@ -17,7 +17,7 @@ export default function Introduction() {
     <Grid container alignItems='center' justifyContent='center' textAlign="center" >
             <Grid item xs={12}>
         <Box sx={{ bgcolor: 'text.primary', color: 'background.paper', p: 2 }}>
-          mizugame portfolio site
+          create by mizugame634978
         </Box>
       </Grid>
 

@@ -15,7 +15,7 @@ const card = (
     <CardContent>
       <Typography sx={{fontSize: 14}} color="text.primary" component="div">
 
-        <AccountCircleIcon sx={{fontSize: 100 }} color="primary"/>
+        <AccountCircleIcon sx={{fontSize: 100 }} />
       </Typography>
       <Typography variant="h5" component="div">
         このポートフォリオサイト
@@ -26,7 +26,6 @@ const card = (
       <Typography variant="body2">
         SPAによる高速なページ遷移とスマホ対応？
         <br />
-        aa
       </Typography>
     </CardContent>
     <CardActions>
@@ -39,8 +38,6 @@ const card = (
 
 export default function Product3() {
   return (
-    // <Box sx={{ maxWidth: 300,minWidth:275 }}>
-      <Card variant="outlined">{card}</Card>
-    // </Box>
+      <Card >{card}</Card>
   );
 }
