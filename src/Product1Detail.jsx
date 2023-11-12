@@ -17,7 +17,7 @@ const card = (
       図書館システム
     </Typography>
     <Typography sx={{ mb: 1.5 }} color="text.secondary">
-      個人開発・WEBアプリ
+      チーム開発・デスクトップアプリ
       <br />
       使用技術:Python3,tkinter,sqlite3
     </Typography>
@@ -25,7 +25,7 @@ const card = (
     <Typography variant="h5">開発した経緯</Typography>
     <Typography variant="body2">
     ■ 開発の背景
-SEを目指すうえで、人に使われるサービスを作成したいと考えたため。
+SEを目指すうえで、人に使われるサービスを作成したいと考えたため。<br />
 ■ 共同開発者数
 初期は9人で最終的には３人<br /><br />
 ■ 内容/役割
@@ -42,7 +42,7 @@ DB設計と画面設計（チーム）、技術選定（チーム）を担当。
 またアプリの見た目やアニメーションに興味を持ち、フロントエンドの技術を学ぶようになった。
     </Typography>
 
-    <Link href="https://www.osakac.ac.jp/project_now/ei/1164">
+    <Link href="https://www.osakac.ac.jp/project_now/ei/1164" target="_blank" rel="noopener">
       <Button size="small">掲載サイトを見る</Button>
     </Link>
   </React.Fragment>

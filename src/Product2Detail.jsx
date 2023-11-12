@@ -28,16 +28,16 @@ const card = (
     </Typography>
     <Typography>
 
-■ 成果
-ユーザーが考えることを減らし、質を落としてでも記録を残してもらえるように作った
+■ 成果:
+ユーザーが考えることを減らし、質を落としてでも記録を残してもらえるように作った<br /><br />
 
-■ 学んだ点
+■ 学んだ点:
 
 理解が曖昧でもなんとなくわかるなら作り始めたが、この方法だとモティベーションを保ちやすいことが分かった。
 またフレームワークがクラスからテーブルを作成する場合は、考えたテーブルをそのままクラスに書いてはいけないことがわかった。
     </Typography>
 
-    <Link href="https://github.com/mizugame634978/smash_note">
+    <Link href="https://github.com/mizugame634978/smash_note" target="_blank" rel="noopener">
       <Button size="small">ソースコードを見る</Button>
     </Link>
   </React.Fragment>

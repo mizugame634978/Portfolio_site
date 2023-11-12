@@ -8,8 +8,7 @@ import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
-import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+
 
 const card = (
   <React.Fragment>
@@ -19,18 +18,21 @@ const card = (
     <Typography sx={{ mb: 1.5 }} color="text.secondary">
       個人開発・WEBアプリ
       <br />
-      使用技術:JavaScript,React,material ui
+      使用技術:JavaScript,React,material ui(mui)
     </Typography>
 
-    <Typography variant="h5">開発した経緯</Typography>
+
     <Typography variant="body2">
-      履歴書に開発実績をかけない企業があったため
-    </Typography>
-    <Typography>
-      その他：開発する際にbootstrapの知識が少し活かせた
-    </Typography>
+    ■開発した経緯:
+      履歴書に開発実績をかけない企業があったため<br /><br />
 
-    <Link href="https://github.com/mizugame634978/Portfolio_site">
+    ■その他:開発する際にbootstrapの知識が少し活かせた</Typography>
+
+    <Link
+      href="https://github.com/mizugame634978/Portfolio_site"
+      target="_blank"
+      rel="noopener"
+    >
       <Button size="small">ソースコードを見る</Button>
     </Link>
   </React.Fragment>
@@ -39,7 +41,7 @@ const card = (
 export default function Product3Detail() {
   return (
     <Grid container alignItems="center" justifyContent="center">
-      <Grid card xs={11}lg={8}>
+      <Grid card xs={11} lg={8}>
         <Card variant="outlined">
           <CardContent>{card}</CardContent>
         </Card>
