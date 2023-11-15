@@ -5,9 +5,11 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import Link from "@mui/material/Link";
+
 /*icons */
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+//
+import{ Link }from "react-router-dom";
 
 const card = (
   <React.Fragment>
@@ -27,7 +29,7 @@ const card = (
       </Typography>
     </CardContent>
     <CardActions>
-      <Link href="/Product3">
+      <Link to="/Product3">
         <Button size="small">Learn More</Button>
       </Link>
     </CardActions>

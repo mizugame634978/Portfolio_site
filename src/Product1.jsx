@@ -6,9 +6,11 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import Link from "@mui/material/Link";
+
 /*mui icons */
 import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
+/**router */
+import{ Link }from "react-router-dom";
 
 const card = (
   <React.Fragment>
@@ -29,10 +31,11 @@ const card = (
       </Typography>
     </CardContent>
     <CardActions>
-      <Link href="/Product1">
+      <Link to="/Product1">
         <Button size="small">Learn More</Button>
       </Link>
     </CardActions>
+    
   </React.Fragment>
 );
 

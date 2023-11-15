@@ -42,7 +42,7 @@ export default function Product3Detail() {
   return (
     <Grid container alignItems="center" justifyContent="center">
       <Grid card xs={11} lg={8}>
-        <Card variant="outlined">
+        <Card>
           <CardContent>{card}</CardContent>
         </Card>
       </Grid>

@@ -39,10 +39,11 @@ export default function Introduction() {
   return (
     <Grid container alignItems="center" justifyContent="center">
       <Grid card xs={8}lg={6}>
-        {/* <Box sx={{ maxWidth: 275}}> */}
-        <Card variant="outlined">{card}</Card>
+
+        {/* <Card variant="outlined">{card}</Card> */}
+        <Card>{card}</Card>
       </Grid>
-      {/* </Box> */}
+
     </Grid>
   );
 }

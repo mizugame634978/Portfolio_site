@@ -31,7 +31,7 @@ export default function Introduction() {
     <Grid container alignItems="center" justifyContent="center">
       <Grid card xs={8}lg={6}>
         {/* <Box> */}
-        <Card variant="outlined">{card}</Card>
+        <Card>{card}</Card>
         {/* </Box> */}
         <br />
       </Grid>
