@@ -14,14 +14,14 @@ const card = (
         Skill
       </Typography>
       <Typography variant="body2">
-        python:1年 , Django:4ヶ月
+        python:2022年7月～ <br />
+        Django:2023年3月～<br />
         <br />
-        JavaScript:4ヶ月 , React:３ヶ月
+        JavaScript:2023年6月～ <br />
+        React:2023年7月～<br />
         <br />
-        html&css:７ヶ月
-        <br />
-        c言語:2年
-        <br />
+        html&css:７ヶ月<br />
+        c言語:2021年4月～2023年1月<br />
       </Typography>
     </CardContent>
   </React.Fragment>

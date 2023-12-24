@@ -8,6 +8,7 @@ import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
+import Stack from '@mui/material/Stack';
 /*mui icons */
 import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -23,14 +24,19 @@ const card = (
         <br />
         卒業 : 25卒（予定）
         <br />
-        <Link
-          href="https://github.com/mizugame634978"
-          target="_blank"
-          rel="noopener"
-          color="inherit"
-        >
-          <GitHubIcon fontSize="large" />
-        </Link>
+        <Stack spacing={2} direction="row">
+          <Link
+            href="https://github.com/mizugame634978"
+            target="_blank"
+            rel="noopener"
+            color="inherit"
+          >
+            <GitHubIcon fontSize="large" />
+          </Link>
+          <Link href="https://qiita.com/mizugame634978" target="_blank" rel="noopener">
+            <Button size="small" variant="contained" color="success">Qiita</Button>
+          </Link>
+        </Stack>
       </Typography>
     </CardContent>
   </React.Fragment>

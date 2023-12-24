@@ -13,6 +13,7 @@ import Product3 from "./Product3";
 import Product2Detail from "./Product2Detail";
 import Product1Detail from "./Product1Detail";
 import Product3Detail from "./Product3Detail";
+
 import { ResponsiveAppBar } from "./ResponsiveAppBar";
 import Fotter from "./Fotter"
 import Skill from "./Skill";
@@ -63,6 +64,7 @@ function App() {
         <Route path="/Product1" element={<Product1Detail />} />
         <Route path="/Product2" element={<Product2Detail />} />
         <Route path="/Product3" element={<Product3Detail />} />
+
       </Routes>
       <Fotter/>
     </div>

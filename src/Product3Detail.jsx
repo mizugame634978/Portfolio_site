@@ -7,8 +7,7 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-
-
+import Product3Markdown from "./Product3Markdown";
 
 const card = (
   <React.Fragment>
@@ -22,18 +21,14 @@ const card = (
     </Typography>
 
 
-    <Typography variant="body2">
-    ■開発した経緯:
-      履歴書に開発実績をかけない企業があったため<br /><br />
 
-    ■その他:開発する際にbootstrapの知識が少し活かせた</Typography>
 
     <Link
       href="https://github.com/mizugame634978/Portfolio_site"
       target="_blank"
       rel="noopener"
     >
-      <Button size="small">ソースコードを見る</Button>
+      <Button size="small" variant="outlined">ソースコードを見る</Button>
     </Link>
   </React.Fragment>
 );
@@ -43,7 +38,10 @@ export default function Product3Detail() {
     <Grid container alignItems="center" justifyContent="center">
       <Grid card xs={11} lg={8}>
         <Card>
-          <CardContent>{card}</CardContent>
+          <CardContent>
+            {card}
+            <Product3Markdown/>
+          </CardContent>
         </Card>
       </Grid>
     </Grid>

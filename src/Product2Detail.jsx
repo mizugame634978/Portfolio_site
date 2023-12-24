@@ -7,10 +7,10 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-
+import Stack from '@mui/material/Stack';
 import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
-
+import Product2Markdown from "./Product2Markdown";
 const card = (
   <React.Fragment>
     <Typography variant="h5" component="div">
@@ -22,24 +22,14 @@ const card = (
       使用技術:Python3,Django,postgreSQL
     </Typography>
 
-    <Typography variant="h5">開発した経緯</Typography>
-    <Typography variant="body2">
-      市場に自分のほしいと思ったアプリがなかったから
-    </Typography>
-    <Typography>
-
-■ 成果:
-ユーザーが考えることを減らし、質を落としてでも記録を残してもらえるように作った<br /><br />
-
-■ 学んだ点:
-
-理解が曖昧でもなんとなくわかるなら作り始めたが、この方法だとモティベーションを保ちやすいことが分かった。
-またフレームワークがクラスからテーブルを作成する場合は、考えたテーブルをそのままクラスに書いてはいけないことがわかった。
-    </Typography>
-
-    <Link href="https://github.com/mizugame634978/smash_note" target="_blank" rel="noopener">
-      <Button size="small">ソースコードを見る</Button>
-    </Link>
+    <Stack spacing={2} direction="row">
+      <Link href="https://smash-note.onrender.com/smash_note/" target="_blank" rel="noopener">
+        <Button size="small" variant="outlined">触ってみる</Button>
+      </Link>
+      <Link href="https://github.com/mizugame634978/smash_note" target="_blank" rel="noopener">
+        <Button size="small" variant="outlined">ソースコードを見る</Button>
+      </Link>
+    </Stack>
   </React.Fragment>
 );
 
@@ -48,7 +38,10 @@ export default function Product2Detail() {
     <Grid container alignItems="center" justifyContent="center">
       <Grid card xs={11}lg={8}>
         <Card>
-          <CardContent>{card}</CardContent>
+          <CardContent>
+            {card}
+            <Product2Markdown/>
+            </CardContent>
         </Card>
       </Grid>
     </Grid>
